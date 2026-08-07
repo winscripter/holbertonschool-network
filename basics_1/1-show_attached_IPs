@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Search all IPs on local PC
 
-ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+ifconfig | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
