@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Ping 5 times the specified IP
 
 if [ "$#" -eq 0 ]; then
